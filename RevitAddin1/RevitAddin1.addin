@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RevitAddin1</Text>
+    <Description>Some description for RevitAddin1</Description>
+    <Assembly>RevitAddin1.dll</Assembly>
+    <FullClassName>RevitAddin1.Command</FullClassName>
+    <ClientId>17646eca-4424-4b36-8005-be4fbfc79b40</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RevitAddin1</Name>
+    <Assembly>RevitAddin1.dll</Assembly>
+    <FullClassName>RevitAddin1.App</FullClassName>
+    <ClientId>9733bb50-0f35-47f5-9a81-5e08040f4ffe</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
